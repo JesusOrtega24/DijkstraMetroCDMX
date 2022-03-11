@@ -1,0 +1,620 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+      <Color blue="ff" green="ff" red="ff" type="rgb"/>
+    </Property>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+    <AuxValue name="designerSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,3,-127,0,0,5,-5"/>
+  </AuxValues>
+
+  <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+    <Property name="useNullLayout" type="boolean" value="true"/>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="99" red="ff" type="rgb"/>
+        </Property>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="0" y="0" width="1530" height="100"/>
+        </Constraint>
+      </Constraints>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace pref="382" max="32767" attributes="0"/>
+                  <Component id="jLabel4" min="-2" pref="773" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="375" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jLabel4" pref="78" max="32767" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel4">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Gill Sans MT" size="48" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="App Dijkstra Metro Ciudad de M&#xe9;xico"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanel2">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="0" y="0" width="1530" height="960"/>
+        </Constraint>
+      </Constraints>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+        <Property name="useNullLayout" type="boolean" value="true"/>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel6">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Arial" size="14" style="1"/>
+            </Property>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/metrocdmx/images/origen.jpg"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="ORIGEN"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="170" y="320" width="112" height="52"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel7">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Arial" size="14" style="1"/>
+            </Property>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/metrocdmx/images/destino.png"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="DESTINO"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="170" y="410" width="112" height="50"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JButton" name="buttonCalcDijks">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="99" red="ff" type="rgb"/>
+            </Property>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Arial" size="14" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="CALCULAR DISTANCIA CORTA"/>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="buttonCalcDijksMouseClicked"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="buttonCalcDijksActionPerformed"/>
+          </Events>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="260" y="520" width="240" height="50"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel8">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Verdana" size="14" style="2"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Desarrollador | Jesus Toxqui Ortega"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="180" y="700" width="-1" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="TextOrigen">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="164">
+                <StringItem index="0" value="Selecciona un origen"/>
+                <StringItem index="1" value="4_CAMINOS"/>
+                <StringItem index="2" value="ACATITLA"/>
+                <StringItem index="3" value="ACULCO"/>
+                <StringItem index="4" value="AGRICOLA_ORIENTAL"/>
+                <StringItem index="5" value="ALLENDE"/>
+                <StringItem index="6" value="APATLACO"/>
+                <StringItem index="7" value="AQUILES_SERDAN"/>
+                <StringItem index="8" value="ARAGON"/>
+                <StringItem index="9" value="ATLALILCO"/>
+                <StringItem index="10" value="AUDITORIO"/>
+                <StringItem index="11" value="AUTOBUSES_DEL_NORTE"/>
+                <StringItem index="12" value="AZCAPOTZALCO"/>
+                <StringItem index="13" value="BALBUENA"/>
+                <StringItem index="14" value="BALDERAS"/>
+                <StringItem index="15" value="BARRANCA_DEL_MUERTO"/>
+                <StringItem index="16" value="BELLAS_ARTES"/>
+                <StringItem index="17" value="BONDOJITO"/>
+                <StringItem index="18" value="BOSQUE_ARAGON"/>
+                <StringItem index="19" value="BOULEVARD_PUERTO_AEREO"/>
+                <StringItem index="20" value="BUENA_VISTA"/>
+                <StringItem index="21" value="CALLE_11"/>
+                <StringItem index="22" value="CAMARONES"/>
+                <StringItem index="23" value="CANAL_DE_SAN_JUAN"/>
+                <StringItem index="24" value="CANAL_DEL_NORTE"/>
+                <StringItem index="25" value="CANDELARIA"/>
+                <StringItem index="26" value="CENTRO_MEDICO"/>
+                <StringItem index="27" value="CERRO_DE_LA_ESTRELLA"/>
+                <StringItem index="28" value="CHABACANO"/>
+                <StringItem index="29" value="CHAPULTEPEC"/>
+                <StringItem index="30" value="CHILPANCINGO"/>
+                <StringItem index="31" value="CIUDAD_AZTECA"/>
+                <StringItem index="32" value="CIUDAD_DEPORTIVA"/>
+                <StringItem index="33" value="COLEGIO_MILITAR"/>
+                <StringItem index="34" value="CONSTITUCION_DE_1917"/>
+                <StringItem index="35" value="CONSTITUYENTES"/>
+                <StringItem index="36" value="CONSULADO"/>
+                <StringItem index="37" value="COPILCO"/>
+                <StringItem index="38" value="COYOACAN"/>
+                <StringItem index="39" value="COYUYA"/>
+                <StringItem index="40" value="CUAUHTEMOC"/>
+                <StringItem index="41" value="CUITLAHUAC"/>
+                <StringItem index="42" value="CULHUACAN"/>
+                <StringItem index="43" value="DEPORTIVO_18_DE_MARZO"/>
+                <StringItem index="44" value="DEPORTIVO_OCEANIA"/>
+                <StringItem index="45" value="DIVISION_DEL_NORTE"/>
+                <StringItem index="46" value="DOCTORES"/>
+                <StringItem index="47" value="ECATEPEC"/>
+                <StringItem index="48" value="EDUARDO_MOLINA"/>
+                <StringItem index="49" value="EJE_CENTRAL"/>
+                <StringItem index="50" value="EL_ROSARIO "/>
+                <StringItem index="51" value="ERMITA"/>
+                <StringItem index="52" value="ESCUADRON_201"/>
+                <StringItem index="53" value="ETIOPIA"/>
+                <StringItem index="54" value="EUGENIA"/>
+                <StringItem index="55" value="FERRERIA"/>
+                <StringItem index="56" value="FRAY_SERVANDO"/>
+                <StringItem index="57" value="GARIBALDI"/>
+                <StringItem index="58" value="GENERAL_ANAYA"/>
+                <StringItem index="59" value="GOMEZ_FARIAS"/>
+                <StringItem index="60" value="GUELATAO"/>
+                <StringItem index="61" value="GUERRERO"/>
+                <StringItem index="62" value="HANGARES"/>
+                <StringItem index="63" value="HIDALGO"/>
+                <StringItem index="64" value="HOSPITAL_20_DE_NOVIEMBRE"/>
+                <StringItem index="65" value="HOSPITAL_GENERAL"/>
+                <StringItem index="66" value="IMPULSORA"/>
+                <StringItem index="67" value="INDIOS_VERDES"/>
+                <StringItem index="68" value="INSTITUTO_DEL_PETROLEO"/>
+                <StringItem index="69" value="INSURGENTES"/>
+                <StringItem index="70" value="INSURGENTES_SUR"/>
+                <StringItem index="71" value="ISABEL_LA_CATOLICA"/>
+                <StringItem index="72" value="IZTACALCO"/>
+                <StringItem index="73" value="IZTAPALAPA"/>
+                <StringItem index="74" value="JAMAICA"/>
+                <StringItem index="75" value="JUANACATLAN"/>
+                <StringItem index="76" value="JUAREZ"/>
+                <StringItem index="77" value="LA_PAZ"/>
+                <StringItem index="78" value="LA_RAZA"/>
+                <StringItem index="79" value="LA_VIGA"/>
+                <StringItem index="80" value="LA_VILLA_BASILICA"/>
+                <StringItem index="81" value="LAGUNILLA"/>
+                <StringItem index="82" value="LAZARO_CARDENAS"/>
+                <StringItem index="83" value="LINDA_VISTA"/>
+                <StringItem index="84" value="LOMAS_LA_ESTRELLA"/>
+                <StringItem index="85" value="LOS_REYES"/>
+                <StringItem index="86" value="M.A._QUEVEDO"/>
+                <StringItem index="87" value="MARTIN_CARRERA"/>
+                <StringItem index="88" value="MERCED"/>
+                <StringItem index="89" value="MEXICALTZINGO"/>
+                <StringItem index="90" value="MISTERIOS"/>
+                <StringItem index="91" value="MIXCOAC"/>
+                <StringItem index="92" value="MIXIUHCA"/>
+                <StringItem index="93" value="MOCTEZUMA"/>
+                <StringItem index="94" value="MORELOS"/>
+                <StringItem index="95" value="MUZQUIZ"/>
+                <StringItem index="96" value="NATIVITAS"/>
+                <StringItem index="97" value="NEZAHUALCOYOTL"/>
+                <StringItem index="98" value="NI&#xd1;OS_HEROES"/>
+                <StringItem index="99" value="NOPALERA"/>
+                <StringItem index="100" value="NORMAL"/>
+                <StringItem index="101" value="NORTE_45"/>
+                <StringItem index="102" value="OBRERA "/>
+                <StringItem index="103" value="OBSERVATORIO"/>
+                <StringItem index="104" value="OCEANIA"/>
+                <StringItem index="105" value="OLIMPICA"/>
+                <StringItem index="106" value="OLIVOS"/>
+                <StringItem index="107" value="PANTEONES"/>
+                <StringItem index="108" value="PANTITLAN"/>
+                <StringItem index="109" value="PARQUE_DE_LOS_VENADOS"/>
+                <StringItem index="110" value="PATRIOTISMO"/>
+                <StringItem index="111" value="PE&#xd1;ON_VIEJO"/>
+                <StringItem index="112" value="PERIFERICO_ORIENTE"/>
+                <StringItem index="113" value="PINO_SUAREZ"/>
+                <StringItem index="114" value="PLAZA_ARAGON"/>
+                <StringItem index="115" value="POLANCO"/>
+                <StringItem index="116" value="POLITECNICO"/>
+                <StringItem index="117" value="POPOTLA"/>
+                <StringItem index="118" value="PORTALES"/>
+                <StringItem index="119" value="POTRERO"/>
+                <StringItem index="120" value="PUEBLA"/>
+                <StringItem index="121" value="REFINERIA"/>
+                <StringItem index="122" value="REVOLUCION"/>
+                <StringItem index="123" value="RICARDO_FLORES_MAGON"/>
+                <StringItem index="124" value="RIO_DE_LOS_REMEDIOS"/>
+                <StringItem index="125" value="ROMERO_RUBIO"/>
+                <StringItem index="126" value="SALTO_DEL_AGUA"/>
+                <StringItem index="127" value="SAN_ANDRES_TOMATLAN"/>
+                <StringItem index="128" value="SAN_ANTONIO"/>
+                <StringItem index="129" value="SAN_ANTONIO_ABAD"/>
+                <StringItem index="130" value="SAN_COSME"/>
+                <StringItem index="131" value="SAN_JOAQUIN"/>
+                <StringItem index="132" value="SAN_JUAN_DE_LETRAN"/>
+                <StringItem index="133" value="SAN_LAZARO"/>
+                <StringItem index="134" value="SAN_PEDRO_DE_LOS_PINOS"/>
+                <StringItem index="135" value="SANTA_ANITA"/>
+                <StringItem index="136" value="SANTA_MARTHA"/>
+                <StringItem index="137" value="SEVILLA"/>
+                <StringItem index="138" value="TACUBA"/>
+                <StringItem index="139" value="TACUBAYA"/>
+                <StringItem index="140" value="TALISMAN"/>
+                <StringItem index="141" value="TASQUE&#xd1;A"/>
+                <StringItem index="142" value="TEPALCATES"/>
+                <StringItem index="143" value="TEPITO"/>
+                <StringItem index="144" value="TERMINAL_AEREA"/>
+                <StringItem index="145" value="TEZONCO"/>
+                <StringItem index="146" value="TEZOZOMOC"/>
+                <StringItem index="147" value="TLAHUAC"/>
+                <StringItem index="148" value="TLALTENCO"/>
+                <StringItem index="149" value="TLATELOLCO"/>
+                <StringItem index="150" value="UAM-1"/>
+                <StringItem index="151" value="UNIVERSIDAD"/>
+                <StringItem index="152" value="VALLE_GOMEZ"/>
+                <StringItem index="153" value="VALLEJO"/>
+                <StringItem index="154" value="VELODROMO"/>
+                <StringItem index="155" value="VIADUCTO"/>
+                <StringItem index="156" value="VILLA_DE_ARAGON"/>
+                <StringItem index="157" value="VILLA_DE_CORTES"/>
+                <StringItem index="158" value="VIVEROS"/>
+                <StringItem index="159" value="XOLA"/>
+                <StringItem index="160" value="ZAPATA"/>
+                <StringItem index="161" value="ZAPOTITLAN"/>
+                <StringItem index="162" value="ZARAGOZA"/>
+                <StringItem index="163" value="ZOCALO"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="350" y="320" width="269" height="52"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="TextDestino">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="164">
+                <StringItem index="0" value="Selecciona un destino"/>
+                <StringItem index="1" value="4_CAMINOS"/>
+                <StringItem index="2" value="ACATITLA"/>
+                <StringItem index="3" value="ACULCO"/>
+                <StringItem index="4" value="AGRICOLA_ORIENTAL"/>
+                <StringItem index="5" value="ALLENDE"/>
+                <StringItem index="6" value="APATLACO"/>
+                <StringItem index="7" value="AQUILES_SERDAN"/>
+                <StringItem index="8" value="ARAGON"/>
+                <StringItem index="9" value="ATLALILCO"/>
+                <StringItem index="10" value="AUDITORIO"/>
+                <StringItem index="11" value="AUTOBUSES_DEL_NORTE"/>
+                <StringItem index="12" value="AZCAPOTZALCO"/>
+                <StringItem index="13" value="BALBUENA"/>
+                <StringItem index="14" value="BALDERAS"/>
+                <StringItem index="15" value="BARRANCA_DEL_MUERTO"/>
+                <StringItem index="16" value="BELLAS_ARTES"/>
+                <StringItem index="17" value="BONDOJITO"/>
+                <StringItem index="18" value="BOSQUE_ARAGON"/>
+                <StringItem index="19" value="BOULEVARD_PUERTO_AEREO"/>
+                <StringItem index="20" value="BUENA_VISTA"/>
+                <StringItem index="21" value="CALLE_11"/>
+                <StringItem index="22" value="CAMARONES"/>
+                <StringItem index="23" value="CANAL_DE_SAN_JUAN"/>
+                <StringItem index="24" value="CANAL_DEL_NORTE"/>
+                <StringItem index="25" value="CANDELARIA"/>
+                <StringItem index="26" value="CENTRO_MEDICO"/>
+                <StringItem index="27" value="CERRO_DE_LA_ESTRELLA"/>
+                <StringItem index="28" value="CHABACANO"/>
+                <StringItem index="29" value="CHAPULTEPEC"/>
+                <StringItem index="30" value="CHILPANCINGO"/>
+                <StringItem index="31" value="CIUDAD_AZTECA"/>
+                <StringItem index="32" value="CIUDAD_DEPORTIVA"/>
+                <StringItem index="33" value="COLEGIO_MILITAR"/>
+                <StringItem index="34" value="CONSTITUCION_DE_1917"/>
+                <StringItem index="35" value="CONSTITUYENTES"/>
+                <StringItem index="36" value="CONSULADO"/>
+                <StringItem index="37" value="COPILCO"/>
+                <StringItem index="38" value="COYOACAN"/>
+                <StringItem index="39" value="COYUYA"/>
+                <StringItem index="40" value="CUAUHTEMOC"/>
+                <StringItem index="41" value="CUITLAHUAC"/>
+                <StringItem index="42" value="CULHUACAN"/>
+                <StringItem index="43" value="DEPORTIVO_18_DE_MARZO"/>
+                <StringItem index="44" value="DEPORTIVO_OCEANIA"/>
+                <StringItem index="45" value="DIVISION_DEL_NORTE"/>
+                <StringItem index="46" value="DOCTORES"/>
+                <StringItem index="47" value="ECATEPEC"/>
+                <StringItem index="48" value="EDUARDO_MOLINA"/>
+                <StringItem index="49" value="EJE_CENTRAL"/>
+                <StringItem index="50" value="EL_ROSARIO "/>
+                <StringItem index="51" value="ERMITA"/>
+                <StringItem index="52" value="ESCUADRON_201"/>
+                <StringItem index="53" value="ETIOPIA"/>
+                <StringItem index="54" value="EUGENIA"/>
+                <StringItem index="55" value="FERRERIA"/>
+                <StringItem index="56" value="FRAY_SERVANDO"/>
+                <StringItem index="57" value="GARIBALDI"/>
+                <StringItem index="58" value="GENERAL_ANAYA"/>
+                <StringItem index="59" value="GOMEZ_FARIAS"/>
+                <StringItem index="60" value="GUELATAO"/>
+                <StringItem index="61" value="GUERRERO"/>
+                <StringItem index="62" value="HANGARES"/>
+                <StringItem index="63" value="HIDALGO"/>
+                <StringItem index="64" value="HOSPITAL_20_DE_NOVIEMBRE"/>
+                <StringItem index="65" value="HOSPITAL_GENERAL"/>
+                <StringItem index="66" value="IMPULSORA"/>
+                <StringItem index="67" value="INDIOS_VERDES"/>
+                <StringItem index="68" value="INSTITUTO_DEL_PETROLEO"/>
+                <StringItem index="69" value="INSURGENTES"/>
+                <StringItem index="70" value="INSURGENTES_SUR"/>
+                <StringItem index="71" value="ISABEL_LA_CATOLICA"/>
+                <StringItem index="72" value="IZTACALCO"/>
+                <StringItem index="73" value="IZTAPALAPA"/>
+                <StringItem index="74" value="JAMAICA"/>
+                <StringItem index="75" value="JUANACATLAN"/>
+                <StringItem index="76" value="JUAREZ"/>
+                <StringItem index="77" value="LA_PAZ"/>
+                <StringItem index="78" value="LA_RAZA"/>
+                <StringItem index="79" value="LA_VIGA"/>
+                <StringItem index="80" value="LA_VILLA_BASILICA"/>
+                <StringItem index="81" value="LAGUNILLA"/>
+                <StringItem index="82" value="LAZARO_CARDENAS"/>
+                <StringItem index="83" value="LINDA_VISTA"/>
+                <StringItem index="84" value="LOMAS_LA_ESTRELLA"/>
+                <StringItem index="85" value="LOS_REYES"/>
+                <StringItem index="86" value="M.A._QUEVEDO"/>
+                <StringItem index="87" value="MARTIN_CARRERA"/>
+                <StringItem index="88" value="MERCED"/>
+                <StringItem index="89" value="MEXICALTZINGO"/>
+                <StringItem index="90" value="MISTERIOS"/>
+                <StringItem index="91" value="MIXCOAC"/>
+                <StringItem index="92" value="MIXIUHCA"/>
+                <StringItem index="93" value="MOCTEZUMA"/>
+                <StringItem index="94" value="MORELOS"/>
+                <StringItem index="95" value="MUZQUIZ"/>
+                <StringItem index="96" value="NATIVITAS"/>
+                <StringItem index="97" value="NEZAHUALCOYOTL"/>
+                <StringItem index="98" value="NI&#xd1;OS_HEROES"/>
+                <StringItem index="99" value="NOPALERA"/>
+                <StringItem index="100" value="NORMAL"/>
+                <StringItem index="101" value="NORTE_45"/>
+                <StringItem index="102" value="OBRERA "/>
+                <StringItem index="103" value="OBSERVATORIO"/>
+                <StringItem index="104" value="OCEANIA"/>
+                <StringItem index="105" value="OLIMPICA"/>
+                <StringItem index="106" value="OLIVOS"/>
+                <StringItem index="107" value="PANTEONES"/>
+                <StringItem index="108" value="PANTITLAN"/>
+                <StringItem index="109" value="PARQUE_DE_LOS_VENADOS"/>
+                <StringItem index="110" value="PATRIOTISMO"/>
+                <StringItem index="111" value="PE&#xd1;ON_VIEJO"/>
+                <StringItem index="112" value="PERIFERICO_ORIENTE"/>
+                <StringItem index="113" value="PINO_SUAREZ"/>
+                <StringItem index="114" value="PLAZA_ARAGON"/>
+                <StringItem index="115" value="POLANCO"/>
+                <StringItem index="116" value="POLITECNICO"/>
+                <StringItem index="117" value="POPOTLA"/>
+                <StringItem index="118" value="PORTALES"/>
+                <StringItem index="119" value="POTRERO"/>
+                <StringItem index="120" value="PUEBLA"/>
+                <StringItem index="121" value="REFINERIA"/>
+                <StringItem index="122" value="REVOLUCION"/>
+                <StringItem index="123" value="RICARDO_FLORES_MAGON"/>
+                <StringItem index="124" value="RIO_DE_LOS_REMEDIOS"/>
+                <StringItem index="125" value="ROMERO_RUBIO"/>
+                <StringItem index="126" value="SALTO_DEL_AGUA"/>
+                <StringItem index="127" value="SAN_ANDRES_TOMATLAN"/>
+                <StringItem index="128" value="SAN_ANTONIO"/>
+                <StringItem index="129" value="SAN_ANTONIO_ABAD"/>
+                <StringItem index="130" value="SAN_COSME"/>
+                <StringItem index="131" value="SAN_JOAQUIN"/>
+                <StringItem index="132" value="SAN_JUAN_DE_LETRAN"/>
+                <StringItem index="133" value="SAN_LAZARO"/>
+                <StringItem index="134" value="SAN_PEDRO_DE_LOS_PINOS"/>
+                <StringItem index="135" value="SANTA_ANITA"/>
+                <StringItem index="136" value="SANTA_MARTHA"/>
+                <StringItem index="137" value="SEVILLA"/>
+                <StringItem index="138" value="TACUBA"/>
+                <StringItem index="139" value="TACUBAYA"/>
+                <StringItem index="140" value="TALISMAN"/>
+                <StringItem index="141" value="TASQUE&#xd1;A"/>
+                <StringItem index="142" value="TEPALCATES"/>
+                <StringItem index="143" value="TEPITO"/>
+                <StringItem index="144" value="TERMINAL_AEREA"/>
+                <StringItem index="145" value="TEZONCO"/>
+                <StringItem index="146" value="TEZOZOMOC"/>
+                <StringItem index="147" value="TLAHUAC"/>
+                <StringItem index="148" value="TLALTENCO"/>
+                <StringItem index="149" value="TLATELOLCO"/>
+                <StringItem index="150" value="UAM-1"/>
+                <StringItem index="151" value="UNIVERSIDAD"/>
+                <StringItem index="152" value="VALLE_GOMEZ"/>
+                <StringItem index="153" value="VALLEJO"/>
+                <StringItem index="154" value="VELODROMO"/>
+                <StringItem index="155" value="VIADUCTO"/>
+                <StringItem index="156" value="VILLA_DE_ARAGON"/>
+                <StringItem index="157" value="VILLA_DE_CORTES"/>
+                <StringItem index="158" value="VIVEROS"/>
+                <StringItem index="159" value="XOLA"/>
+                <StringItem index="160" value="ZAPATA"/>
+                <StringItem index="161" value="ZAPOTITLAN"/>
+                <StringItem index="162" value="ZARAGOZA"/>
+                <StringItem index="163" value="ZOCALO"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="350" y="410" width="269" height="49"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/metrocdmx/images/mapa cdmx metro2.png"/>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="790" y="110" width="690" height="590"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel9">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/metrocdmx/images/angel.png"/>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="210" y="150" width="310" height="130"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JButton" name="facebook">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/metrocdmx/images/facebook.png"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="facebookActionPerformed"/>
+          </Events>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="550" y="700" width="50" height="50"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JButton" name="instagram">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/metrocdmx/images/instagram.jpg"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="instagramActionPerformed"/>
+          </Events>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="640" y="700" width="50" height="50"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JButton" name="twitter">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/metrocdmx/images/twitter.png"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="twitterActionPerformed"/>
+          </Events>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="730" y="700" width="50" height="50"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JButton" name="youtube">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/metrocdmx/images/youtube.png"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="youtubeActionPerformed"/>
+          </Events>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="820" y="700" width="50" height="50"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel2">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/metrocdmx/images/METROCDMX.png"/>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="0" y="580" width="1550" height="320"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
